@@ -48,8 +48,7 @@ def merge_record_extra(
     record: logging.LogRecord,
     target: Dict,
     reserved: Union[Dict, List],
-    rename_fields: Optional[Dict[str, str]] = None,
-) # -> Dict:
+    rename_fields: Optional[Dict[str, str]] = None) -> Dict:
     """
     Merges extra attributes from LogRecord object into target dictionary
 
