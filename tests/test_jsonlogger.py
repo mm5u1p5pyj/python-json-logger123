@@ -221,7 +221,7 @@ class TestJsonLogger(unittest.TestCase):
             str_traceback = traceback.format_exc()
             # Formatter removes trailing new line
             if str_traceback.endswith('\n'):
-                str_traceback = str_traceback[:-1]
+               # str_traceback = str_traceback[:-1]
 
         return str_traceback
 
